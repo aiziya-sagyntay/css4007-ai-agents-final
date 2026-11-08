@@ -110,7 +110,7 @@ flowchart TD
 
 **Trust boundary:** pages, catalogue text, and tool outputs are *data*, not instructions. Program or scholarship descriptions cannot override the system rules or grant new tool permissions. Source information is treated as outdated if the `verified_on` value is missing or outside the configured freshness window (initially 60 days), and such facts must be clearly marked for rechecking rather than described as current.
 
-Further architectural decisions and data fields are in `docs/architecture.md` and `docs/data-plan.md`.
+More detailed architecture and data documentation can be added in later weeks. This proposal is self-contained for Week 10.
 
 ## Example Requests
 
@@ -160,4 +160,4 @@ Further architectural decisions and data fields are in `docs/architecture.md` an
 | **16** | 14–20 Dec | Run >=12 tests including guardrails; test the full live workflow, review source accuracy, fix failures, complete evaluation and research presentation. |
 | **17** | 21–22 Dec | Complete final report, README, GitHub evidence, final commit hash, live demo and oral defense; submit before 22 Dec 23:59 UTC+5. |
 
-**Week 10 submission boundary:** this document is a **design proposal**, not a claim that the LLM agent or its future evaluation suite already works. The required instructor-repository **fork** and actual dated GitHub commits must be performed on the student's GitHub account; their evidence must be recorded accurately in the weekly report.
+**Week 10 submission boundary:** this document is a **design proposal**, not a claim that the LLM agent or its future evaluation suite already works. The instructor-repository **fork** has been created. Week 10 GitHub commit evidence is recorded in the weekly report; subsequent development must be committed as it occurs.
